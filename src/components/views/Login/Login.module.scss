@@ -1,0 +1,21 @@
+@import '../../../styles/settings.scss';
+
+.component {
+  padding: $base-size;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paper {
+  max-width: 300px;
+  height: 300px;
+  padding: 40px;
+  margin-top: 70px;
+}
+
+.button {
+  border: solid 1px black;
+  margin: 25px auto;
+  width: 100%;
+}

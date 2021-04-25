@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+// -->
+
+# Development
+
+## URLe dostępne dzięki 'yarn start' Po modyfikacji taska start będziemy mieli dwa servery lokalne na porcie 3000 i 3131
+http://localhost:3000-bieżący projekt, czyli panel administracyjny ('webpack-dev-server') // ozn aktualny podgląd projektu reactowego
+http://localhost:3131-stronna pizzerii dla klientów
+http://localhost:3131/api - url API projektu
+http://localhost:3131/api/db - podgląd całej bazy danych API
+http://localhost/3131/panel - stan bieżącego projektu (panelu adm.) z momentu uruchomienia yarn start (strona pod tm adresem nie będzie zmieniała się "na żywo" wraz ze zmianami wprowadzanymi w plikach projektu)

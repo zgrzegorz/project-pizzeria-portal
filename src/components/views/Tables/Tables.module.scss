@@ -1,0 +1,16 @@
+@import '../../../styles/settings.scss';
+
+.component {
+  padding: $base-size;
+}
+
+.button {
+  border: solid 1px black;
+  width: 200px;
+  margin: 30px;
+}
+
+.form {
+  border: solid 1px black;
+  margin-bottom: 30px;
+}
